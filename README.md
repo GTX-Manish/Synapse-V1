@@ -13,7 +13,7 @@ The attention mechanism, causal masking, positional embeddings, Transformer bloc
 language-model head are all written by hand — the project deliberately avoids
 `torch.nn.Transformer` and `torch.nn.MultiheadAttention`.
 
-- **Weights (SafeTensors) on Hugging Face:** _link added once the HF repo is published_
+- **Weights (SafeTensors) on Hugging Face:** https://huggingface.co/MannyLM/Synapse-V1
 - **Best validation loss:** `1.6539` (cross-entropy, character-level)
 
 ---
