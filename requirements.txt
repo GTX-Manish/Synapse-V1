@@ -1,0 +1,8 @@
+# Core dependency — training, evaluation, and generation
+torch>=2.1
+
+# Weight export to SafeTensors (scripts/export_hf.py)
+safetensors>=0.4
+
+# Optional — only needed to publish the exported bundle to the Hugging Face Hub
+# huggingface_hub>=0.20

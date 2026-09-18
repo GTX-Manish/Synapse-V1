@@ -38,7 +38,7 @@ text = DATA_PATH.read_text(
     encoding="utf-8"
 )
 
-split_index = int(len(text) * 0.9)
+split_index = int(len(text) * 0.8)
 
 train_text = text[:split_index]
 val_text = text[split_index:]
